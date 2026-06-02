@@ -1,0 +1,71 @@
+Privacy Policy
+SPENDLY
+Effective May 14, 2026
+Spendly ("we", "us", or "our") is a personal finance app that helps you track your expenses, income, and investments. This Privacy Policy explains what information the app collects, how we use it, and the choices you have.
+
+Information We Collect
+When you use Spendly, the following information is associated with your account:
+
+Account details from Google Sign-In: your name, email address, and profile photo.
+Optional profile fields you enter in the app: phone number and age.
+Transactions you create or import: merchant, amount, date, category, and type (expense or income).
+Categories, investments, watchlists, and SIP goals you set up inside the app.
+Basic usage state needed for the app to function (for example, your theme preference and which SMS messages have already been imported).
+
+
+How SMS Data Is Handled
+On Android, with your explicit permission, Spendly reads bank and transaction SMS messages so it can automatically capture your transactions. We've designed this with privacy in mind, but want to be fully transparent about how it works:
+
+When the app is open or running in the background, SMS messages are parsed entirely on your device. Only the structured fields extracted from each transaction (amount, merchant, date, and the last few digits of your account) are sent to our servers — the raw SMS text stays on your phone.
+When the app is fully closed, bank transaction SMS may be sent to our servers in raw form so we can parse them server-side. This allows Spendly to capture transactions even when you haven't opened the app. Raw SMS text uploaded this way is stored on our servers for a maximum of 30 days and is used only to extract transaction data. It is never shared with third parties or used for advertising.
+Before any SMS is uploaded, it is checked on your device against a set of filters. OTPs, personal messages, promotional SMS, and any message that does not match known bank transaction patterns are blocked from upload entirely and never leave your phone.
+Only SMS from recognized bank and payment senders (such as HDFC, SBI, ICICI, Kotak, Axis, PhonePe, and similar) pass the filter. Random or unknown senders are never uploaded.
+You can revoke SMS access at any time from Profile › Permissions › SMS Auto-Capture, or in your device settings. Revoking access stops all new auto-captures and background uploads; transactions already in your account are not deleted.
+
+
+Background Transaction Sync
+To ensure your transactions are always up to date — even when you haven't opened the app — Spendly uses Android's background processing capabilities to detect and upload new bank SMS as they arrive. This is what allows your daily spending summary notification to show accurate numbers at 11 PM regardless of whether you opened the app that day.
+This background upload only occurs for SMS that pass the on-device filter described above. You can disable this by revoking SMS permission in your device settings, though doing so will mean transactions are only captured when you manually open the app.
+
+How We Use Your Information
+We use your information to:
+
+Operate the core features of the app — showing your transactions, categorizing your spending, generating analytics, and syncing your data across sessions.
+Authenticate you and keep your account secure.
+Improve the SMS parsing rules used by the app over time.
+Send you in-app notifications (for example, daily and weekly spending summaries) when you've enabled them.
+
+
+Data Storage and Security
+Your account data is stored on our backend infrastructure. Your authentication token is stored locally on your device using secure local storage and is sent with each request to identify you. In production, all communication between the app and our backend happens over HTTPS.
+Raw SMS text that is uploaded for server-side parsing (see "Background Transaction Sync" above) is automatically deleted from our servers after 30 days. Structured transaction data (amount, merchant, date, category) is retained as long as your account exists.
+Spendly does not store your bank credentials, and we do not connect to any account-aggregator service. We never ask for your net banking username, password, OTP, or card number.
+
+Third-Party Services
+Spendly relies on a small number of service providers to operate:
+
+Firebase Authentication (Google) is used for sign-in. Firebase receives the basic Google profile information needed to authenticate you, in line with Google's own privacy policies.
+Our backend hosting provider stores your transactions, categories, and other app data on our behalf.
+
+We do not currently integrate any advertising networks, third-party analytics SDKs, or trackers in the app.
+
+Data Sharing
+We do not sell your personal information or your transaction data. We share data only with the service providers listed above, and only to the extent needed for the app to function. We may disclose information if we are required to do so by law or to respond to valid legal process.
+
+Your Rights and Choices
+
+Access: You can view all of your data at any time inside the app.
+Correction: You can edit your profile, transactions, and categories directly in the app.
+Deletion: You can request deletion of your account and the data associated with it by contacting us at the email address below.
+Permissions: You can grant or revoke SMS and notification permissions at any time from your device settings or from the Permissions section of the Profile screen.
+
+
+Children's Privacy
+Spendly is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can remove it.
+
+Changes to This Policy
+We may update this Privacy Policy from time to time. When we do, we will update the effective date at the top of this screen. For material changes, we will notify you in the app.
+
+Contact Us
+If you have any questions about this Privacy Policy or how your data is handled, please reach out:
+pvk1294@gmail.com
